@@ -1,0 +1,24 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "mood",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "date",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "office",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180126030626",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "mood",
+    "jpaMetamodelFiltering": false,
+    "pagination": "infinite-scroll"
+}

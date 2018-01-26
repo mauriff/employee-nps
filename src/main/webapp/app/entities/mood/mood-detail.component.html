@@ -1,0 +1,33 @@
+
+<div *ngIf="mood">
+    <h2><span jhiTranslate="moodsApp.mood.detail.title">Mood</span> {{mood.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="moodsApp.mood.mood">Mood</span></dt>
+        <dd>
+            <span>{{mood.mood}}</span>
+        </dd>
+        <dt><span jhiTranslate="moodsApp.mood.date">Date</span></dt>
+        <dd>
+            <span>{{mood.date | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="moodsApp.mood.office">Office</span></dt>
+        <dd>
+            <span>{{mood.office}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'mood/'+ mood.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

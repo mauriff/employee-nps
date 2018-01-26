@@ -1,0 +1,23 @@
+{
+    "moodsApp": {
+        "mood" : {
+            "home": {
+                "title": "Moods",
+                "createLabel": "Crear nuevo Mood",
+                "createOrEditLabel": "Crear o editar Mood"
+            },
+            "created": "Un nuevo Mood ha sido creado con el identificador {{ param }}",
+            "updated": "Un Mood ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Mood ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Mood {{ id }}?"
+            },
+            "detail": {
+                "title": "Mood"
+            },
+            "mood": "Mood",
+            "date": "Date",
+            "office": "Office"
+        }
+    }
+}

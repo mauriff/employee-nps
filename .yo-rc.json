@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.xt.employeemoods",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "4.9.0",
+    "baseName": "moods",
+    "packageName": "com.xt.employeemoods",
+    "packageFolder": "com/xt/employeemoods",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "bd3bbcbf0862975ecf19a1ee72be8f8abeaeaa7a",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "es",
+      "en"
+    ]
+  }
+}
